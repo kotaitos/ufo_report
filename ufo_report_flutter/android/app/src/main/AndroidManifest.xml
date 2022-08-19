@@ -2,7 +2,6 @@
     package="com.example.ufo_siting">
    <application
         android:label="ufo_siting"
-        android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -32,7 +31,6 @@
             android:value="2" />
         <meta-data
               android:name="com.google.android.geo.API_KEY"
-              android:value="${MAP_API_KEY_FOR_ANDROID}"
-              />
+              android:value="${MAP_API_KEY_FOR_ANDROID}" />
     </application>
 </manifest>

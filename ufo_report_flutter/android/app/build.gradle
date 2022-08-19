@@ -44,11 +44,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.ufo_report"
+        applicationId "com.example.ufo_siting"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        manifestPlaceholders = [MAP_API_KEY_FOR_ANDROID: System.getenv("MAP_API_KEY_FOR_ANDROID"),
-                                applicationName: "com.example.ufo_report"]
+        manifestPlaceholders = [MAP_API_KEY_FOR_ANDROID: System.getenv("MAP_API_KEY_FOR_ANDROID")]
         minSdkVersion 20
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
