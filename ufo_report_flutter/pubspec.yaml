@@ -1,4 +1,4 @@
-name: ufo_siting
+name: ufo_report_flutter
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -20,6 +20,11 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.17.6 <3.0.0"
 
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  ios: true
+  android: true
+
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -34,7 +39,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  google_maps_flutter_web: ^0.4.0+2
+  flutter_launcher_icons: ^0.10.0
+  platform_maps_flutter: ^1.0.2
 
 dev_dependencies:
   flutter_test:
