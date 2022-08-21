@@ -41,6 +41,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_launcher_icons: ^0.10.0
   platform_maps_flutter: ^1.0.2
+  firebase_core: ^1.21.0
+  cloud_firestore: ^1.0.1
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
