@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomeView(
+      home: const MyHomeView(
         title: 'Flutter Demo',
       ),
     );

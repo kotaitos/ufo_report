@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ufo_report_flutter/components/report.dart';
+import 'package:ufo_report_flutter/components/view_report.dart';
 import '../components/map.dart';
 
 class MyHomeView extends StatefulWidget {
@@ -12,7 +12,7 @@ class MyHomeView extends StatefulWidget {
 }
 
 class _MyHomeViewState extends State<MyHomeView> {
-  final pages = <Widget>[const Map(), Report()];
+  final pages = <Widget>[const Map(), const ViewReport()];
   final titles = <String>["出現予測", "発見報告"];
   int selectIndex = 0;
   @override
