@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class Report {
   String content;
   DateTime createdAt;
@@ -6,7 +8,7 @@ class Report {
   Map<String, dynamic> toJson() {
     return {
       'content': content,
-      'created_at': createdAt,
+      'created_at': Timestamp.fromDate(createdAt),
     };
   }
 }
