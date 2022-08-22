@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "878217751119",
+    "project_id": "ufo-report-359817",
+    "storage_bucket": "ufo-report-359817.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878217751119:android:cc925c9b979189ee05183a",
+        "android_client_info": {
+          "package_name": "com.example.ufo_siting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878217751119-n925q9f113i7qvgiq3sh1e4rf06cvlhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZTe7xCcu1_sk079GMDOS1JeiKAH7Ve5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878217751119-n925q9f113i7qvgiq3sh1e4rf06cvlhg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878217751119-7vjjhljee061npa70ha54jjamggr6efp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ufoSiting"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
